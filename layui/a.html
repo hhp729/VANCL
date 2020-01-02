@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/layui.mobile.css" media="all">
+  <link rel="stylesheet" href="./css/layui.css">
+  <style>
+    body .demo-class .layui-layer-title {
+      background: #c00;
+      color: #fff;
+      border: none;
+    }
+
+    body .demo-class .layui-layer-btn {
+      border-top: 1px solid #E9E7E7
+    }
+
+    body .demo-class .layui-layer-btn a {
+      background: #333;
+    }
+  </style>
+
+</head>
+
+<body>
+  <i class="layui-icon layui-icon-face-smile layui-anim layui-anim-fadein layui-anim-loop"
+    style="font-size: 30px; color: #1E9FFF;"></i>
+  <i class="layui-icon layui-icon-face-smile layui-anim layui-anim-fadein layui-anim-loop"
+    style="font-size: 30px; color: #1E9FFF;"></i>
+  <i class="layui-icon layui-icon-face-smile layui-anim layui-anim-fadein layui-anim-loop"
+    style="font-size: 30px; color: #1E9FFF;"></i>
+  <i class="layui-icon layui-icon-face-smile layui-anim layui-anim-fadein layui-anim-loop"
+    style="font-size: 30px; color: #1E9FFF;"></i>
+
+<div class="layui-progress layui-progress-big" lay-filter="demo" lay-showPercent="true">
+  <div class="layui-progress-bar" lay-percent="0%"></div>
+</div>
+</body>
+<script src="./layui.all.js" charset="utf-8"></script>
+<script src="./layui.js"></script>
+<script>
+  layui.use('layer', function () {
+    var layer = layui.layer;
+    // layer.open({
+    //   skin: 'demo-class'
+    // });
+
+    // layer.config({
+    //   skin: 'demo-class'
+    // });
+
+
+    layer.ready(function () {
+      layer.msg('很高兴一开场就见到你');
+    });
+
+  });
+</script>
+
+</html>

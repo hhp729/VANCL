@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+.head {
+  width: 100%;
+  height: auto; }
+  .head .headerTop {
+    width: 100%;
+    height: 30px;
+    background: #F7F7F7;
+    border-bottom: 1px solid #ccc; }
+    .head .headerTop .headNav {
+      width: 1200px;
+      height: 30px;
+      margin: 0 auto; }
+      .head .headerTop .headNav .headLeft {
+        height: 100%;
+        line-height: 31px;
+        color: #808080;
+        float: right;
+        font-size: 12px; }
+        .head .headerTop .headNav .headLeft a {
+          text-decoration: none;
+          color: #808080; }
+        .head .headerTop .headNav .headLeft .a1 {
+          background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat scroll 0px 0px;
+          padding-left: 26px; }
+        .head .headerTop .headNav .headLeft .a2 {
+          padding-left: 10px; }
+        .head .headerTop .headNav .headLeft a:hover {
+          color: red; }
+  .head .sousuo {
+    width: 1200px;
+    height: 62px;
+    margin: 0 auto;
+    margin-top: 30px; }
+    .head .sousuo #ss {
+      float: right; }
+      .head .sousuo #ss .serchTop {
+        height: 26px;
+        display: flex; }
+        .head .sousuo #ss .serchTop .serch {
+          display: flex; }
+          .head .sousuo #ss .serchTop .serch input {
+            width: 260px;
+            height: 26px; }
+          .head .sousuo #ss .serchTop .serch button {
+            width: 49px;
+            height: 30px;
+            border: none;
+            background: #B81C22;
+            color: #fff;
+            cursor: pointer; }
+        .head .sousuo #ss .serchTop .shop {
+          width: 105px;
+          height: 30px;
+          background: #B81C22;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 20px; }
+          .head .sousuo #ss .serchTop .shop .iconfont {
+            color: #fff; }
+          .head .sousuo #ss .serchTop .shop a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #fff; }
+      .head .sousuo #ss p {
+        font-size: 12px;
+        color: #727171;
+        padding-top: 10px; }
+        .head .sousuo #ss p a {
+          text-decoration: none;
+          color: #727171; }
+  .head #nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto; }
+    .head #nav ul {
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      .head #nav ul li {
+        width: 99px;
+        text-align: center;
+        height: 22px;
+        border-right: 1px solid #727171;
+        position: relative; }
+        .head #nav ul li .dh {
+          width: 100%;
+          height: auto;
+          background: #fff;
+          position: absolute;
+          left: 0;
+          top: 24px;
+          display: none;
+          z-index: 100;
+          padding-bottom: 20px; }
+          .head #nav ul li .dh a {
+            display: block;
+            padding-top: 15px; }
+      .head #nav ul li:hover .dh {
+        display: block;
+        border-top: 5px solid #B81C21; }
+      .head #nav ul li a {
+        text-decoration: none;
+        color: #727171; }
+      .head #nav ul li a:hover {
+        color: red; }
+      .head #nav ul .logo {
+        width: 185px;
+        margin-top: -42px;
+        border: none; }
+      .head #nav ul .logo a {
+        display: block;
+        width: 185px;
+        height: 46px;
+        background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll; }
+
+.lunbo {
+  width: 100%;
+  height: 535px;
+  margin-bottom: 40px; }
+  .lunbo #test1 {
+    width: 1200px;
+    height: 535px;
+    margin: 0 auto; }
+    .lunbo #test1 #item {
+      width: 1200px;
+      height: 535px;
+      margin: 0 auto; }
+
+.gao {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px; }
+  .gao .gao-img {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto; }
+
+.newDate {
+  width: 100%;
+  margin-bottom: 10px; }
+  .newDate a {
+    display: block;
+    width: 1200px;
+    height: 64px;
+    margin: 0 auto; }
+    .newDate a h2 {
+      width: 100%;
+      height: 64px;
+      background: url(https://i2.vanclimg.com/cms/20191227/ms.jpg) no-repeat scroll 0px 0px; }
+
+#seckill {
+  width: 100%; }
+  #seckill ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; }
+    #seckill ul li {
+      font-size: 16px;
+      color: #474747;
+      width: 232px;
+      margin-right: 10px; }
+      #seckill ul li #text {
+        margin-top: 10px;
+        height: 32px; }
+      #seckill ul li p span:nth-child(1) {
+        color: #BB2B34;
+        font-size: 14px;
+        float: left; }
+      #seckill ul li p span:nth-child(2) {
+        float: right; }
+      #seckill ul li p i {
+        font-size: 20px;
+        color: #BB2B34; }
+
+.news {
+  width: 100%;
+  margin-bottom: 20px; }
+  .news a {
+    display: block;
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto; }
+
+.news1 {
+  width: 100%;
+  margin-bottom: 20px; }
+  .news1 li {
+    width: 1200px;
+    height: 220px;
+    margin: 0 auto; }
+
+#maps {
+  width: 100%; }
+  #maps ul {
+    width: 1200px;
+    height: 593px;
+    margin: 0 auto;
+    display: flex; }
+    #maps ul li {
+      width: 300px;
+      height: 593px; }
+      #maps ul li li a {
+        display: block;
+        width: 300px;
+        height: 593px; }
+
+table {
+  width: 1200px;
+  height: 532px;
+  margin: 0 auto; }
+  table tr {
+    width: 100%;
+    height: 532px; }
+    table tr td {
+      width: 600px;
+      height: 532px; }
+
+.shangzhuang {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto; }
+  .shangzhuang h2 {
+    text-align: center;
+    color: #9A9AA7;
+    line-height: 50px;
+    margin: 30px 0; }
+  .shangzhuang ul {
+    overflow: hidden; }
+  .shangzhuang ul li {
+    margin-right: 15px; }
+  .shangzhuang ul li img {
+    display: block; }
+  .shangzhuang ul .pic-one {
+    width: 590px;
+    float: left; }
+    .shangzhuang ul .pic-one p {
+      height: 28px;
+      padding: 20px 12px; }
+      .shangzhuang ul .pic-one p span {
+        float: right;
+        color: red; }
+  .shangzhuang ul .pic-two {
+    width: 290px;
+    float: left; }
+    .shangzhuang ul .pic-two p {
+      height: 28px;
+      padding: 20px 12px;
+      margin-bottom: 12px; }
+      .shangzhuang ul .pic-two p span {
+        float: right;
+        color: red; }
+  .shangzhuang ul .pic-four {
+    width: 286px;
+    float: left;
+    margin-right: 0; }
+    .shangzhuang ul .pic-four p {
+      height: 28px;
+      padding: 20px 12px;
+      margin-bottom: 12px; }
+      .shangzhuang ul .pic-four p span {
+        float: right;
+        color: red; }
+
+.kuzhuang {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto; }
+  .kuzhuang h2 {
+    text-align: center;
+    color: #9A9AA7;
+    line-height: 50px;
+    margin: 30px 0; }
+  .kuzhuang ul {
+    display: flex;
+    justify-content: space-around; }
+  .kuzhuang ul li {
+    width: 285px;
+    height: 508px; }
+    .kuzhuang ul li p {
+      height: 28px;
+      padding: 20px 12px; }
+      .kuzhuang ul li p span {
+        float: right;
+        color: red; }
+
+.foot {
+  width: 1200px;
+  height: 282px;
+  border: 1px solid #e0e0e1;
+  margin: 20px auto;
+  padding: 0px 40px 0px; }
+  .foot .footer {
+    width: 100%;
+    margin-top: 30px; }
+    .foot .footer ul {
+      display: flex;
+      justify-content: space-around; }
+      .foot .footer ul li {
+        width: 370px;
+        height: 138px;
+        border-right: 1px solid #e0e0e1; }
+        .foot .footer ul li a {
+          display: block;
+          width: 370px;
+          height: 138px;
+          overflow: hidden; }
+          .foot .footer ul li a img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 20px; }
+          .foot .footer ul li a p {
+            color: #727171;
+            text-align: center; }
+      .foot .footer ul .go1 p {
+        width: 156px;
+        height: 32px;
+        color: #fff;
+        line-height: 32px;
+        margin: 0 auto;
+        background: #B81C22; }
+      .foot .footer ul li:nth-of-type(3) img {
+        width: 100px;
+        height: 100px;
+        margin-top: 0;
+        margin-bottom: 10px; }
+  .foot .footer-bottom {
+    width: 100%;
+    height: 26px;
+    margin-top: 20px;
+    padding: 17px 0px 14px;
+    background: #f8f8f8; }
+    .foot .footer-bottom ul {
+      display: flex;
+      justify-content: space-between; }
+      .foot .footer-bottom ul li {
+        width: auto;
+        padding: 0px 40px 0px;
+        border-right: 1px solid #dadadb; }
+
+.footerAer {
+  width: 100%;
+  height: auto; }
+  .footerAer .footerTop {
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #000000; }
+    .footerAer .footerTop p {
+      text-align: center;
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=index.css.map */
