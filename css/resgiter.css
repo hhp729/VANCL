@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #919191; }
+  .logo img {
+    display: block;
+    margin-top: 10px; }
+
+#myform {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 40px; }
+  #myform .regist {
+    width: 100%; }
+    #myform .regist h2 {
+      width: 415px;
+      height: 35px;
+      font-size: 20px;
+      line-height: 35px;
+      padding-bottom: 2px;
+      font-weight: 400;
+      float: right;
+      border-bottom: 2px solid #b81e20;
+      color: #a2a2a2;
+      margin-bottom: 10px; }
+      #myform .regist h2 span {
+        float: right;
+        font-size: 14px; }
+        #myform .regist h2 span a {
+          text-decoration: none;
+          color: red; }
+    #myform .regist .content-left {
+      width: 465px;
+      height: 500px;
+      float: left;
+      margin-left: 130px; }
+      #myform .regist .content-left img {
+        width: 465px; }
+    #myform .regist .content-right {
+      width: 415px;
+      float: right; }
+      #myform .regist .content-right input {
+        width: 260px;
+        height: 35px;
+        margin-bottom: 14px; }
+      #myform .regist .content-right span {
+        display: block;
+        float: right;
+        width: 120px;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 35px;
+        background: pink; }
+
+/*# sourceMappingURL=resgiter.css.map */

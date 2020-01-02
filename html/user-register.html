@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="../css/resgiter.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="../img/logo_new.jpg" alt="">
+    </div>
+    <form action="" id="myform">
+        <div class="regist">
+            <h2>注册新用户
+                <span>我已经注册，现在就 <a href="">登录</a></span>
+            </h2>
+            <div style="width: 100%; height: 10px; overflow: hidden; clear: both;">
+            </div>
+            <div class="content-left">
+                <img src="../img/login120412_newlogo.jpg" alt="">
+            </div>
+            <div class="content-right">
+                <input type="text" placeholder="验证码">
+                <span></span>
+                <input type="text" placeholder="请输入手机号">
+            </div>
+        </div>
+
+    </form>
+</body>
+<script src="../jquery-1.11.3.js"></script>
+<script>
+    var code;
+    function createCode() {
+        code = '';
+        var codeLength = 6;
+        var codeV = $(".content-right span");
+
+        var random = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+        for (var i = 0; i < codeLength; i++) {
+            var index = Math.floor(Math.random() * 36)
+            code += random[index];
+        }
+        codeV.text(code);
+    }
+    createCode();
+    $(".content-right span").bind('click', function () {
+        createCode();
+    });
+
+</script>
+
+</html>
