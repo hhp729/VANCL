@@ -1,0 +1,46 @@
+.footerAer {
+  width: 100%;
+  height: auto; }
+  .footerAer .footerTop {
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #999; }
+    .footerAer .footerTop p {
+      text-align: center;
+      margin-bottom: 10px; }
+  .footerAer .footerbot {
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .footerAer .footerbot a {
+      margin: 0 10px; }
+    .footerAer .footerbot .redlogo {
+      display: block;
+      height: 42px;
+      width: 113px;
+      background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -581px transparent; }
+    .footerAer .footerbot .cnga {
+      background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+      display: block;
+      height: 45px;
+      width: 156px; }
+    .footerAer .footerbot .jiaoyi {
+      background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -675px transparent;
+      display: inline-block;
+      height: 42px;
+      width: 96px; }
+    .footerAer .footerbot .msg {
+      background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+      display: inline-block;
+      height: 42px;
+      width: 101px; }
+    .footerAer .footerbot .flow {
+      background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+      display: inline-block;
+      height: 42px;
+      width: 42px; }
+
+/*# sourceMappingURL=bottom.css.map */

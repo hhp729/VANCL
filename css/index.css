@@ -92,7 +92,6 @@ li {
         position: relative; }
         .head #nav ul li .dh {
           width: 100%;
-          height: auto;
           background: #fff;
           position: absolute;
           left: 0;

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+.head {
+  width: 100%;
+  height: auto; }
+  .head .headerTop {
+    width: 100%;
+    height: 30px;
+    background: #F7F7F7;
+    border-bottom: 1px solid #ccc; }
+    .head .headerTop .headNav {
+      width: 1200px;
+      height: 30px;
+      margin: 0 auto; }
+      .head .headerTop .headNav .headLeft {
+        height: 100%;
+        line-height: 31px;
+        color: #808080;
+        float: right;
+        font-size: 12px; }
+        .head .headerTop .headNav .headLeft a {
+          text-decoration: none;
+          color: #808080; }
+        .head .headerTop .headNav .headLeft .a1 {
+          background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat scroll 0px 0px;
+          padding-left: 26px; }
+        .head .headerTop .headNav .headLeft .a2 {
+          padding-left: 10px; }
+        .head .headerTop .headNav .headLeft a:hover {
+          color: red; }
+  .head .sousuo {
+    width: 1200px;
+    height: 62px;
+    margin: 0 auto;
+    margin-top: 30px; }
+    .head .sousuo #ss {
+      float: right; }
+      .head .sousuo #ss .serchTop {
+        height: 26px;
+        display: flex; }
+        .head .sousuo #ss .serchTop .serch {
+          display: flex; }
+          .head .sousuo #ss .serchTop .serch input {
+            width: 260px;
+            height: 26px; }
+          .head .sousuo #ss .serchTop .serch button {
+            width: 49px;
+            height: 30px;
+            border: none;
+            background: #B81C22;
+            color: #fff;
+            cursor: pointer; }
+        .head .sousuo #ss .serchTop .shop {
+          width: 105px;
+          height: 30px;
+          background: #B81C22;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 20px; }
+          .head .sousuo #ss .serchTop .shop .iconfont {
+            color: #fff; }
+          .head .sousuo #ss .serchTop .shop a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #fff; }
+      .head .sousuo #ss p {
+        font-size: 12px;
+        color: #727171;
+        padding-top: 10px; }
+        .head .sousuo #ss p a {
+          text-decoration: none;
+          color: #727171; }
+  .head #nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto; }
+    .head #nav ul {
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      .head #nav ul li {
+        width: 99px;
+        text-align: center;
+        height: 22px;
+        border-right: 1px solid #727171;
+        position: relative; }
+        .head #nav ul li .dh {
+          width: 100%;
+          height: auto;
+          background: #fff;
+          position: absolute;
+          left: 0;
+          top: 24px;
+          display: none;
+          z-index: 100;
+          padding-bottom: 20px; }
+          .head #nav ul li .dh a {
+            display: block;
+            padding-top: 15px; }
+      .head #nav ul li:hover .dh {
+        display: block;
+        border-top: 5px solid #B81C21; }
+      .head #nav ul li a {
+        text-decoration: none;
+        color: #727171; }
+      .head #nav ul li a:hover {
+        color: red; }
+      .head #nav ul .logo {
+        width: 185px;
+        margin-top: -42px;
+        border: none; }
+      .head #nav ul .logo a {
+        display: block;
+        width: 185px;
+        height: 46px;
+        background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll; }
+
+/*# sourceMappingURL=head.css.map */

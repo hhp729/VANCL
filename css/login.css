@@ -1,0 +1,142 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #919191; }
+  .logo img {
+    display: block;
+    margin-top: 10px; }
+
+#myform {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px; }
+  #myform h2 {
+    width: 400px;
+    color: #979797;
+    float: right;
+    font-size: 22px;
+    line-height: 30px;
+    margin-right: 100px; }
+    #myform h2 span {
+      float: right;
+      font-size: 14px;
+      font-weight: normal; }
+      #myform h2 span a {
+        text-decoration: none;
+        color: red; }
+  #myform .left {
+    width: 365px;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left; }
+    #myform .left img {
+      display: block;
+      width: 465px; }
+  #myform .login_1 {
+    width: 400px;
+    border: 1px solid #D1D1D1;
+    background-color: #fff;
+    float: right;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-right: 100px; }
+    #myform .login_1 p {
+      width: 100%;
+      height: 35px;
+      color: #fff;
+      line-height: 35px;
+      background: #b42025;
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 20px; }
+    #myform .login_1 #name {
+      height: 45px;
+      width: 360px;
+      border: solid 1px #cbcbcb;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+      #myform .login_1 #name input {
+        outline: none;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        text-indent: 10px; }
+    #myform .login_1 .bt {
+      width: 360px;
+      margin: 0 auto;
+      height: 100px; }
+      #myform .login_1 .bt a {
+        float: right;
+        display: block;
+        color: #b42025;
+        text-decoration: none;
+        font-weight: bolder;
+        line-height: 30px; }
+      #myform .login_1 .bt #btn {
+        display: block;
+        width: 100%;
+        height: 45px;
+        border: none;
+        background: #b42025;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        outline: none;
+        cursor: pointer; }
+    #myform .login_1 .line {
+      border-bottom: dotted 1px #909090;
+      width: 100%;
+      height: 1px;
+      overflow: hidden;
+      margin: 10px 0 0 0; }
+    #myform .login_1 .gulp {
+      width: 360px;
+      height: auto;
+      margin: 0 auto; }
+      #myform .login_1 .gulp h4 {
+        color: #a4a4a4;
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-bottom: 8px; }
+      #myform .login_1 .gulp .qkimg {
+        margin-bottom: 10px;
+        height: 40px; }
+        #myform .login_1 .gulp .qkimg a {
+          width: 33px;
+          height: 33px;
+          display: block;
+          float: left;
+          margin: 0 10px 0 0;
+          background: url(http://i1.vanclimg.com/cms/20160118/logos.jpg) no-repeat left center; }
+        #myform .login_1 .gulp .qkimg .weixin {
+          background-position: 0px 0px; }
+        #myform .login_1 .gulp .qkimg .xiaomi {
+          background-position: -147px 0px; }
+        #myform .login_1 .gulp .qkimg .aliply {
+          background-position: -48px 0px; }
+        #myform .login_1 .gulp .qkimg .qq {
+          background-position: -189px 0px; }
+        #myform .login_1 .gulp .qkimg .qh360 {
+          background-position: -228px 0px; }
+        #myform .login_1 .gulp .qkimg .weibo {
+          background-position: -93px 0px;
+          width: 36px; }
+
+.foot {
+  width: 1200px;
+  margin: 0 auto;
+  font: 100 12px "瀹嬩綋";
+  color: #999999; }
+
+/*# sourceMappingURL=login.css.map */

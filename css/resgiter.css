@@ -17,7 +17,8 @@
   width: 1200px;
   height: auto;
   margin: 0 auto;
-  padding-top: 40px; }
+  padding-top: 40px;
+  overflow: hidden; }
   #myform .regist {
     width: 100%; }
     #myform .regist h2 {
@@ -39,7 +40,7 @@
           color: red; }
     #myform .regist .content-left {
       width: 465px;
-      height: 500px;
+      height: 400px;
       float: left;
       margin-left: 130px; }
       #myform .regist .content-left img {
@@ -49,9 +50,8 @@
       float: right; }
       #myform .regist .content-right input {
         width: 260px;
-        height: 35px;
-        margin-bottom: 14px; }
-      #myform .regist .content-right span {
+        height: 35px; }
+      #myform .regist .content-right #yzm {
         display: block;
         float: right;
         width: 120px;
@@ -59,6 +59,42 @@
         font-size: 20px;
         text-align: center;
         line-height: 35px;
-        background: pink; }
+        border: 1px solid #919191;
+        font-family: cursive;
+        font-weight: bolder;
+        text-shadow: 6px 2px 2px #333;
+        color: #a10000; }
+      #myform .regist .content-right .tiaokuan {
+        width: 100%;
+        padding-top: 5px; }
+        #myform .regist .content-right .tiaokuan #chk {
+          width: 12px;
+          height: 12px; }
+        #myform .regist .content-right .tiaokuan label a {
+          text-decoration: none;
+          color: #a10000; }
+      #myform .regist .content-right #btn {
+        border: none;
+        width: 100%;
+        height: 45px;
+        background: #9A9A9A;
+        color: #ffffff;
+        cursor: pointer; }
+      #myform .regist .content-right #tip {
+        height: 14px;
+        font-size: 12px;
+        color: #acacac; }
+
+.bottom {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center; }
+  .bottom p {
+    font-size: 12px;
+    color: #999999; }
+
+input {
+  outline: none;
+  background: #fff; }
 
 /*# sourceMappingURL=resgiter.css.map */
