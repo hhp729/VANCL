@@ -8,7 +8,9 @@
     <title>商品列表</title>
     <link rel="stylesheet" href="../css/head.css">
     <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
     <div class="Head">
 
@@ -52,54 +54,92 @@
             <div class="filter">
                 <div class="paixu">
                     <ul>
-                        <li>默认</li>
-                        <li>销量</li>
+                        <li id="name-up">默认</li>
+                        <li id="name-down">销量</li>
                         <li>好评</li>
-                        <li>价格升序</li>
-                        <li>价格降序</li>
+                        <li id="price-up">价格升序</li>
+                        <li id="price-down">价格降序</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="tbody">
-            <ul>
-                <li>
-                    <img src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg" alt="">
-                    <a href="">卡通家居鞋 独角兽 J20196 粉色</a>
-                    <span>售价￥100</span>
-                </li>
-                <li>
-                    <img src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg" alt="">
-                    <a href="">卡通家居鞋 独角兽 J20196 粉色</a>
-                    <span>售价￥100</span>
-                </li>
-                <li>
-                    <img src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg" alt="">
-                    <a href="">卡通家居鞋 独角兽 J20196 粉色</a>
-                    <span>售价￥100</span>
-                </li>
-                <li>
-                    <img src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg" alt="">
-                    <a href="">卡通家居鞋 独角兽 J20196 粉色</a>
-                    <span>售价￥100</span>
-                </li>
-                <li>
-                    <img src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg" alt="">
-                    <a href="">卡通家居鞋 独角兽 J20196 粉色</a>
-                    <span>售价￥100</span>
-                </li>
-                <li>
-                    <img src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg" alt="">
-                    <a href="">卡通家居鞋 独角兽 J20196 粉色</a>
-                    <span>售价￥100</span>
-                </li>
+            <ul id="ul">
+                <!-- <li id="watch">
+                    <a href="./listpage.html?id=${id}" target="_blank">
+                        <img id="image"
+                            src="http://p4.vanclimg.com/300/300/product/6/3/8/6387931/mid/6387931-1j201912021154431660.jpg"
+                            alt="">
+                        <p id="name" href="">卡通家居鞋 独角兽 J20196 粉色</p>
+                        <span id="price">售价￥100</span>
+                    </a>
+                </li> -->
             </ul>
         </div>
+        <div class="foot">
+            <div class="footer">
+                <ul>
+                    <li class="go1">
+                        <a href="">
+                            <img src="../img/onlinecustomer.png" alt="">
+                            <p>7X9小时在线服务</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/seven.png" alt="">
+                            <p>7天内退货</p>
+                            <p>购物满199元免运费</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/2014_8_29_16_39_33_7709.jpg" alt="">
+                            <p>扫描下载凡客客户端</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <ul>
+                    <li>
+                        <a href="">关于凡客</a>
+                    </li>
+                    <li>
+                        <a href="">新手指南</a>
+                    </li>
+                    <li>
+                        <a href="">配送范围及时间</a>
+                    </li>
+                    <li>
+                        <a href="">支付方式</a>
+                    </li>
+                    <li>
+                        <a href="">售后服务</a>
+                    </li>
+                    <li>
+                        <a href="">帮助中心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerAer">
+            <div class="footerTop">
+                <p>Copyright 2007 - 2020 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                <p>凡客诚品（北京）科技有限公司</p>
+            </div>
+            <div class="footerbot">
+                <a href="" class="redlogo"></a>
+                <span class="cnga"></span>
+                <a href="" class="jiaoyi"></a>
+                <a href="" class="msg"></a>
+                <a href="" class="flow"></a>
+            </div>
+        </div>
     </div>
+    
 </body>
 <script src="../jquery-1.11.3.js"></script>
-<script>
-    $('.Head').load('./head.html')
-</script>
+<script src="../js/goods_list.js" type="module"></script>
 
 </html>

@@ -5,6 +5,9 @@
 li {
   list-style: none; }
 
+a {
+  text-decoration: none; }
+
 .head {
   width: 100%;
   height: auto; }
@@ -308,6 +311,7 @@ table {
         border-right: 1px solid #e0e0e1; }
         .foot .footer ul li a {
           display: block;
+          text-decoration: none;
           width: 370px;
           height: 138px;
           overflow: hidden; }
@@ -344,6 +348,8 @@ table {
         width: auto;
         padding: 0px 40px 0px;
         border-right: 1px solid #dadadb; }
+        .foot .footer-bottom ul li a {
+          color: #333333; }
 
 .footerAer {
   width: 100%;

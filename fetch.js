@@ -23,10 +23,10 @@ var APIuserRegister = params =>request(`${base}/resgiter.php`,params);
 var APIuserLogin = params =>request(`${base}/login.php`,params);
 
 //商品列表
-var APIgoodsList = params =>request(`${base}/list.php`,params);
+var APIgoodsList = params =>request(`${base}/goodslist.php`,params);
 
 //商品详情
-var APIgoodsDetail = params =>request(`${base}/listpage.php`,params);
+var APIgoodsDetail = params =>request(`${base}/page.php`,params);
 
 
 export{
