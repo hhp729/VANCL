@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,147 @@
     <title>商品详情</title>
     <link rel="stylesheet" href="../css/listpage.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/head.css">
 </head>
-<body>
-    <div class="Head">
 
+<body>
+    <div>
+        <div class="head">
+            <div class="headerTop">
+                <div class="headNav">
+                    <div class="headLeft">
+                        <span>您好，<span id="username"></span>欢迎光临凡客诚品！</span>
+                        <span id="tt">退出</span>
+                        <a id="login" class="no" href="./user-login.html">登录&nbsp; </a>|
+                        <a id="zhuce" class="no" href="./user-login.html">注册</a>
+                        <a href="">我的订单</a>
+                        <a href="" class="a1">
+                            网站公告</a>
+                        <a href="" class="a2">
+                            <img src="http://i1.vanclimg.com/cms/20150605/w1.jpg" alt="">
+                        </a>
+                        <a href="" class="a3">
+                            <img src="http://i2.vanclimg.com/cms/20150605/w2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                </div>
+            <div class="sousuo">
+                <div id="ss">
+                    <div class="serchTop">
+                        <div class="serch">
+                            <input id="inp" type="text" placeholder="搜“帆布鞋”，体验与众不同">
+                            <button id="but">搜索</button>
+                        </div>
+                        <div class="shop">
+                            <span class="iconfont icon-gouwuche"></span>
+                            <a href="">购物车(
+                                <span>0</span>)
+                            </a>
+                        </div>
+                    </div>
+                    <p>热门搜索：
+                        <a href="">免烫衬衫</a>
+                        <a href="">羽绒服</a>
+                        <a href="">外套</a>
+                        <a href="">熊本熊</a>
+                        <a href="">运动户外</a>
+                        <a href="">帆布鞋</a>
+                    </p>
+                </div>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li class="logo">
+                        <a href=""></a>
+                    </li>
+                    <li>
+                        <a href="./index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="">新品</a>
+                        <div class="dh">
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">衬衫</a>
+                        <div class="dh">
+                            <a href="">免烫</a>
+                            <a href="">易打理</a>
+                            <a href="">休闲</a>
+                            <a href="">高支</a>
+                            <a href="">法兰绒</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">卫衣</a>
+                        <div class="dh">
+                            <a href="">熊本熊</a>
+                            <a href="">创可贴</a>
+                            <a href="">开衫</a>
+                            <a href="">连帽</a>
+                            <a href="">圆领</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">女装</a>
+                        <div class="dh">
+                            <a href="">大衣</a>
+                            <a href="">针织衫</a>
+                            <a href="">鞋品</a>
+                            <a href="">袜品</a>
+                            <a href="">家居配饰</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">羽绒服</a>
+                        <div class="dh">
+                            <a href="">羽绒服</a>
+                            <a href="">大衣</a>
+                            <a href="">夹克</a>
+                            <a href="">西服</a>
+                            <a href="">C9设计款</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">针织衫</a>
+                        <div class="dh">
+                            <a href="">棉线衫</a>
+                            <a href="">羊毛衫</a>
+                            <a href="">空调衫</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">裤装</a>
+                        <div class="dh">
+                            <a href="">针织裤</a>
+                            <a href="">休闲裤</a>
+                            <a href="">工装裤</a>
+                            <a href="">牛仔裤</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">鞋</a>
+                        <div class="dh">
+                            <a href="">复古跑鞋</a>
+                            <a href="">帆布鞋</a>
+                            <a href="">休闲鞋</a>
+                            <a href="">运动鞋</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">家居配饰</a>
+                        <div class="dh">
+                            <a href="">内衣袜品</a>
+                            <a href="">家居服</a>
+                            <a href="">家居鞋</a>
+                            <a href="">手机壳</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="desc">
         <div class="desc_1">
@@ -25,11 +163,15 @@
     <span class="blank"></span>
     <div class="goods">
         <div class="goods_li">
-            <img id="smallImg" src="http://p3.vanclimg.com/300/300/product/6/3/8/6387412/mid/6387412-1j201910080938315715.jpg" alt="" draggable="false">
+            <img id="smallImg"
+                src="http://p3.vanclimg.com/300/300/product/6/3/8/6387412/mid/6387412-1j201910080938315715.jpg" alt=""
+                draggable="false">
             <!-- 放大镜框 -->
             <div class="magnifier"></div>
             <div class="bigShowdow">
-                <img id="bigImg" src="http://p3.vanclimg.com/300/300/product/6/3/8/6387412/mid/6387412-1j201910080938315715.jpg" alt="">
+                <img id="bigImg"
+                    src="http://p3.vanclimg.com/300/300/product/6/3/8/6387412/mid/6387412-1j201910080938315715.jpg"
+                    alt="">
             </div>
         </div>
         <div class="miaoshu">
@@ -51,12 +193,17 @@
                 <a href="">40-41</a>
             </div>
             <div class="mai">
-                <a id="goumai" href="">立即购买</a>
-                <a id="jiagou" href="">加入购物车</a>
+                <a id="goumai">立即购买</a>
+                <a id="jiagou">加入购物车</a>
             </div>
         </div>
+    </div>
+    <div class="dibu">
+
     </div>
 </body>
 <script src="../jquery-1.11.3.js"></script>
 <script src="../js/listpage.js" type="module"></script>
+<script src="../js/head.js" type="module"></script>
+
 </html>

@@ -1,13 +1,16 @@
-$('.Head').load('./head.html');
 
 import { APIgoodsList } from '../fetch.js';
 
-
+var key = '';
 var order = 'price';
 var sort = 'asc';
 
 rederlist()
 
+$('#but').click(function(){
+    key = $('#inp').val();
+    rederlist()
+})
 $('#name-up').click(function(){
     order = 'name';
     sort = 'asc';
@@ -31,6 +34,7 @@ $('#price-down').click(function(){
 
 function rederlist() {
     APIgoodsList({
+        key,
         sort,
         order
     }).then(data => {

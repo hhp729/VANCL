@@ -1,4 +1,5 @@
 $('.Head').load('./head.html')
+$('.dibu').load('./bottom.html')
 import {APIgoodsDetail} from '../fetch.js'
 
 var search = location.search.substring(1);

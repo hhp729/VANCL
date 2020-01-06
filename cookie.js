@@ -68,4 +68,11 @@ function getCookie(name){
   return '';
 }
 
+export {
+  setCookie,
+  getCookie,
+  getCookies,
+  removeCookie
+}
+
 // console.log(getCookie('login_user'));

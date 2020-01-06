@@ -65,7 +65,11 @@ layui.use('layer', function () {
                             console.log(data)
                             if (data.code) {
                                 // location.href =''
-                                alert('注册成功')
+                                layer.open({
+                                    type: 1,
+                                    area: ['200px', '200px'],
+                                    content: '注册成功'
+                                });
                                 location.href ='./user-login.html'
                             } else {
                                 layer.open({
