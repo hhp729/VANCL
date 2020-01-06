@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 980px;
+  margin: 0 auto;
+  height: 60px;
+  line-height: 60px; }
+  .header .logo {
+    display: flex;
+    float: left; }
+    .header .logo img {
+      display: block;
+      height: 39px;
+      margin-top: 18px; }
+  .header div {
+    width: 220px;
+    float: right;
+    font-size: 14px;
+    color: #666; }
+    .header div span {
+      float: left; }
+    .header div .bz {
+      float: right; }
+
+#sp {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #DCDFE4; }
+  #sp .cell {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #333333;
+    font-size: 12px; }
+    #sp .cell thead {
+      background: grey; }
+      #sp .cell thead tr {
+        height: 40px; }
+  #sp tbody {
+    font-size: 12px;
+    color: #333; }
+    #sp tbody .selected {
+      background: #F8F8F8;
+      height: 100px; }
+      #sp tbody .selected .bar {
+        padding-left: 30px;
+        text-align: left;
+        width: 50px; }
+      #sp tbody .selected .image img {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #C8C8C8; }
+      #sp tbody .selected .reduce {
+        display: block;
+        width: 20px;
+        height: 18px;
+        border: 1px solid #3333;
+        float: left;
+        text-align: center; }
+      #sp tbody .selected .count-input {
+        width: 50px;
+        float: left;
+        text-align: center; }
+      #sp tbody .selected .add {
+        display: block;
+        width: 20px;
+        height: 18px;
+        border: 1px solid #3333;
+        float: left;
+        text-align: center; }
+      #sp tbody .selected a {
+        color: #333333;
+        text-decoration: none; }
+  #sp .bar-summary {
+    width: 980px;
+    margin-top: 30px;
+    border: 1px solid #cccccc;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    overflow: hidden; }
+    #sp .bar-summary .bar {
+      width: auto;
+      padding: 14px 42px 0 13px;
+      margin-bottom: 20px; }
+      #sp .bar-summary .bar ckb {
+        width: 13px;
+        height: 13px;
+        vertical-align: middle; }
+      #sp .bar-summary .bar .batch-del-cart {
+        padding-left: 30px;
+        text-align: left;
+        width: 50px;
+        text-decoration: none;
+        color: #333333; }
+      #sp .bar-summary .bar span {
+        padding-left: 42px; }
+        #sp .bar-summary .bar span em {
+          color: red; }
+    #sp .bar-summary .summary {
+      float: left;
+      padding: 10px 10px 10px 13px; }
+      #sp .bar-summary .summary .amount {
+        font-size: 24px;
+        color: red; }
+    #sp .bar-summary .btn-panel {
+      padding: 0 0 15px 0;
+      float: right; }
+      #sp .bar-summary .btn-panel .go-buy {
+        display: block;
+        background-position: -160px 0;
+        color: #666;
+        height: 37px;
+        line-height: 37px;
+        margin-left: 10px;
+        font-size: 14px;
+        text-align: center;
+        width: 122px;
+        background: #EAEAEA;
+        text-decoration: none;
+        float: left; }
+      #sp .bar-summary .btn-panel .checkout {
+        display: block;
+        background-position: 0 0;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        margin-left: 10px;
+        padding-left: 50px;
+        width: 110px;
+        background: url(//ssl.vanclimg.com/shopping/newpromotions/newpromotion.gif) no-repeat 0 0;
+        overflow: hidden;
+        text-decoration: none; }
+
+/*# sourceMappingURL=gouwu.css.map */

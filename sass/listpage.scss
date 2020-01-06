@@ -157,6 +157,10 @@ a{
                 margin-right: 15px;
                 color:#B81C22;
             }
+            & a:hover{
+                background: rgba(255,255,255,.4);
+                cursor: pointer;
+            }
             & #jiagou{
                 background: #B81C22;
                 color: #ffffff;

@@ -133,6 +133,9 @@ a {
         background: pink;
         margin-right: 15px;
         color: #B81C22; }
+      .goods .miaoshu .mai a:hover {
+        background: rgba(255, 255, 255, 0.4);
+        cursor: pointer; }
       .goods .miaoshu .mai #jiagou {
         background: #B81C22;
         color: #ffffff; }

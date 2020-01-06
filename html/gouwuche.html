@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/gouwu.css">
+</head>
+
+<body>
+    <div class="header">
+        <a class="logo" href="./index.html">
+            <img src="http://i2.vanclimg.com/cms/20140829/vancl-logo.png" alt="">
+        </a>
+        <div>
+            <span>您好，<span id="username"></span></span>
+            <span id="tt">退出 |</span>
+            <span>更换用户</span>
+            <span class="bz">帮助中心</span>
+        </div>
+    </div>
+    <div id="sp">
+        <table class="cell">
+            <thead>
+              <tr>
+                
+                    <th class="title-white bd-left">
+                        &nbsp;
+                    </th>
+                    <th class="bar-title ">
+                        <input id="all-ckb-top" type="checkbox" class="track all-products-ckb ckb" name="all-products" value="all-products" data-del-tip=""><label for="all-ckb-top">全选</label>
+                    </th>
+                    <th class="image">
+                        &nbsp;
+                    </th>
+                    <th class="name">
+                        商品名称
+                    </th>
+                    <th class="size">
+                        尺寸
+                    </th>
+                    <th class="presentpoints" style="display:none">
+                        积分
+                    </th>
+                    <th class="price">
+                        单价
+                    </th>
+                    <th class="qty">
+                        数量
+                    </th>
+                    <th class="discount">
+                        优惠
+                    </th>
+                    <th class="subtotal">
+                        小计
+                    </th>
+                    <th class="operate ">
+                        操作
+                    </th>
+                    <th class="title-white bd-right">
+                        &nbsp;
+                    </th>
+                
+              </tr>
+            </thead>
+            <tbody>
+                <!-- <tr class="selected">
+                    <td class="white bd-left">&nbsp;</td>
+                    <td class="bar" rowspan="1">
+                        <input type="checkbox">
+                    </td>
+                    <td class="image" rowspan="1">
+                        <a target="_blank" href="http://item.vancl.com/6386970.html?ref=mycart_ref">
+                            <img alt="卫衣 创可贴  惹毛我了 白色" src="https://ssl.vanclimg.com/48/product/6/3/8/6386970/big/6386970-1j201909161420549492.jpg"></a>
+                    </td>
+                    <td class="name">
+                        <a target="_blank" href="http://item.vancl.com/6386970.html?ref=mycart_ref" title="卫衣 创可贴  惹毛我了 白色">卫衣 创可贴  惹毛我了 白色</a>
+                        <div style="float: right; width: 36%"></div>
+                    </td>
+                    <td class="size">L</td>
+                    <td class="price">￥178.00</td>
+                    <td class="count">
+                        <span class="reduce">-</span>
+                        <input class="count-input" type="text" value="1" />
+                        <span class="add">+</span>
+                    <td> -</td>
+                    <td class="subtotal">￥178.00</td>
+                    <td class="operate">
+                        <a class="del track" name="sp_cart_mycart_del">删除</a>
+                    </td>
+                    <td class="white bd-right">&nbsp;</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <div id="bar-summary" class="bar-summary clearfix" style="top: 0px;">
+            <div class="bar">
+                  <input id="all-ckb-bt" type="checkbox" name="all-products" value="all-products" class="track all-products-ckb ckb" data-del-tip=""><label for="all-ckb-bt">全选</label>
+                <a href="javascript:;" class="batch-del-cart track" name="sp_cart_mycar_batch_clear">
+                    删除</a>
+                    <span>数量总计：<em>2</em>件</span>
+                    <span>
+                    <em>您目前可享受全场购物免运费
+                    </em>
+                    </span>
+            </div>
+            <div class="summary"> 
+                产品金额总计(不含运费)：<span class="amount">￥<em>310.00</em></span>
+               <a style="display:inline-block;color:#A10000;margin-left:10px;text-decoration: underline;" target="_blank" href="http://catalog.vancl.com/cardcenter.html">点击领取优惠券</a>
+            </div>
+            <div class="btn-panel">
+                 <a href="/mycart/continuetobuy" class="go-buy track" name="sp_cart_mycar_goBuy">
+                &lt;&lt;继续购物</a> <a class="checkout track" href="/checkout?previousUserId=80773934" id="sp_cart_mycar_goPay" name="sp_cart_mycar_goPay">
+                    去结算&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../jquery-1.11.3.js"></script>
+<script src="../js/gouwuche.js" type="module"></script>
+</html>
