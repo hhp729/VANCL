@@ -33,12 +33,22 @@ var APICartAdd = params => request(`${base}/cardadd.php`, params);
 var APICartList = params => request(`${base}/cardlist.php`, params);
 
 
+var APICartnum = params => request(`${base}/num.php`, params);
+
+var APICardel = params => request(`${base}/del.php`, params);
+
+var APICarjie = params => request(`${base}/cardjiesuan.php`, params);
+
+
 export{
     APIuserRegister,
     APIuserLogin,
     APIgoodsList,
     APIgoodsDetail,
     APICartAdd,
-    APICartList
+    APICartList,
+    APICartnum,
+    APICardel,
+    APICarjie
 }
 

@@ -19,12 +19,15 @@
 
     }
     & div{
-        width: 220px;
+        width: 300px;
         float: right;
         font-size: 14px;
         color: #666;
         & span{
             float: left;
+        }
+        & #tt:hover{
+           cursor: pointer;
         }
         & .bz{
             float: right;

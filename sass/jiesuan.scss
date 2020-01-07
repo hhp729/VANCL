@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#checkout{
+    width: 980px;
+    // height: 55px;
+    margin: 0 auto;
+    & .header{
+        height: 55px;
+        border-bottom: 1px solid #7A7F89;
+        padding-top: 15px;
+        & .logo{
+            float: left;
+            display: block;
+            height: 39px;
+            width: 311px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        & .help{
+            float: right;
+            line-height: 39px;
+            & a{
+                text-decoration: none;
+                color: #333;
+                font-size: 14px;
+            }
+        }
+    }
+    & .location{
+        width: 540px;
+        background-position: 0 -28px;
+        background: url(//ssl.vanclimg.com/shopping/newpromotions/newProm.gif);
+        background-position: 0 0;
+        height: 28px;
+        width: 540px;
+        margin-top: 10px;
+        & span{
+            color: #fff;
+            display: inline-block;
+            font-weight: bold;
+            line-height: 28px;
+            text-align: center;
+            width: 170px;
+        } 
+    }
+    & .content{
+        width: 100%;
+        margin-top: 10px;
+        border: 1px solid #DCDFE5;
+        margin-bottom: 20px;
+        & .addr{
+            width: 100%;
+            height: 220px;
+            border-bottom: solid 1px #d2d2d2;
+            display: flex;
+            & .shouhuo{
+                width: 150px;
+                height: 100%;
+                float: left;
+                & h3{
+                    background: #eeeeee;
+                    width: 150px!important;
+                    display: inline-block!important;
+                    text-align: center;
+                    color: #000;
+                    height: 220px;
+                    line-height: 220px;
+                }
+                
+            }
+            & section{
+                float: right;
+                width: 825px;
+                margin: 0px;
+                border: 0 none;
+                background: #fff;
+                position: relative;
+                & .add-new{
+                    width: 230px;
+                    height: 150px;
+                    margin: 10px;
+                    border: dotted 2px #cccc;
+                    line-height: 150px;
+                    text-align: center;
+                    cursor: pointer;
+                    font-weight: bolder;
+                    & span{
+                        color: red;
+                        font-size: 14px;
+                        
+                    }
+                }
+                & .add-new:hover{
+                    border: dotted 2px red;
+                }
+                & .addform{
+                    border: 4px solid #d2d2d2;
+                    width: 650px;
+                    height: 300px;
+                    background-color: #fff;
+                    position: absolute;
+                    top: 100px;
+                    left: 50px;
+                    padding-left: 10px;
+                    padding-top: 20px;
+                    display: none;
+                    z-index: 100;
+                    & ol{
+                        font-size: 14px;
+                        & li{
+                            list-style: none;
+                            margin-bottom: 20px;
+                            & input{
+                                width: 200px;
+                                height: 20px;
+                            }
+                        }
+                        & select{
+                            width: 120px;
+                        }
+                        & #baocun{
+                            width: 150px;
+                            height: 27px;
+                            line-height: 27px;
+                            padding: 0;
+                            margin: 5px 0 5px 0;
+                            background: #A10000;
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            & .qr{
+                width: 400px;
+                height: 100px;
+                margin: 10px;
+                border: dotted 2px #cccc;
+                line-height: 100px;  
+            }
+        }
+    }
+    & .qingdan{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        background: #eee;
+        & span{
+            font-weight: bolder;
+            color:#656565
+        }
+        & a{
+            float: right;
+            text-decoration: none;
+            color: red;
+            font-size: 14px;
+        }
+    }
+    & table{
+        border-collapse: collapse;
+        padding: 0;
+        border-spacing: 0;
+        width: 100%;
+        margin-bottom: 50px;
+        & th{
+            background: #7a7f89;
+            color: #fff;
+            font-weight: normal;
+            padding: 7px 0;
+        }
+        & td{
+            padding: 7px 0;
+            text-align: center;
+            & a{
+                text-decoration: none;
+                color: #000000;
+                font-size: 14px;
+            }
+        }
+       
+       
+    }
+    & .zhifu{
+        width: 100%;
+        height: 35px;
+        color: red;
+        & h4{
+            text-align: right;
+            & span{
+                font-size: 26px;
+            }
+        }
+    }
+}

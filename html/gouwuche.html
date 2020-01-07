@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>购物车</title>
     <link rel="stylesheet" href="../css/gouwu.css">
+    <link rel="stylesheet" href="../css/bottom.css">
 </head>
 
 <body>
@@ -99,22 +100,25 @@
                   <input id="all-ckb-bt" type="checkbox" name="all-products" value="all-products" class="track all-products-ckb ckb" data-del-tip=""><label for="all-ckb-bt">全选</label>
                 <a href="javascript:;" class="batch-del-cart track" name="sp_cart_mycar_batch_clear">
                     删除</a>
-                    <span>数量总计：<em>2</em>件</span>
+                    <span>数量总计：<em id="coun">0</em>件</span>
                     <span>
                     <em>您目前可享受全场购物免运费
                     </em>
                     </span>
             </div>
             <div class="summary"> 
-                产品金额总计(不含运费)：<span class="amount">￥<em>310.00</em></span>
+                产品金额总计(不含运费)：<span class="amount">￥<em id="total">0</em></span>
                <a style="display:inline-block;color:#A10000;margin-left:10px;text-decoration: underline;" target="_blank" href="http://catalog.vancl.com/cardcenter.html">点击领取优惠券</a>
             </div>
             <div class="btn-panel">
-                 <a href="/mycart/continuetobuy" class="go-buy track" name="sp_cart_mycar_goBuy">
-                &lt;&lt;继续购物</a> <a class="checkout track" href="/checkout?previousUserId=80773934" id="sp_cart_mycar_goPay" name="sp_cart_mycar_goPay">
+                 <a href="./goodslist.html" class="go-buy track" name="sp_cart_mycar_goBuy">
+                &lt;&lt;继续购物</a> <a class="checkout track" href="./jiesuan.html" id="sp_cart_mycar_goPay" name="sp_cart_mycar_goPay">
                     去结算&gt;&gt;</a>
             </div>
         </div>
+    </div>
+    <div class="fot">
+
     </div>
 </body>
 <script src="../jquery-1.11.3.js"></script>

@@ -15,12 +15,14 @@
       height: 39px;
       margin-top: 18px; }
   .header div {
-    width: 220px;
+    width: 300px;
     float: right;
     font-size: 14px;
     color: #666; }
     .header div span {
       float: left; }
+    .header div #tt:hover {
+      cursor: pointer; }
     .header div .bz {
       float: right; }
 

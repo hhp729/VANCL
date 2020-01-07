@@ -1,6 +1,9 @@
 
 import { APIgoodsList } from '../fetch.js';
 
+layui.use(['laypage'], function () {
+    var laypage = layui.laypage;
+
 var key = '';
 var order = 'price';
 var sort = 'asc';
@@ -57,3 +60,4 @@ function rederlist() {
         }
     })
 }
+})

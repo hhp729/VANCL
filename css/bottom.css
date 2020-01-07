@@ -1,10 +1,11 @@
 .footerAer {
   width: 100%;
-  height: auto; }
+  height: auto;
+  font-size: 12px;
+  color: #666666; }
   .footerAer .footerTop {
     width: 100%;
-    padding: 20px 0;
-    border-top: 1px solid #999; }
+    padding: 20px 0; }
     .footerAer .footerTop p {
       text-align: center;
       margin-bottom: 10px; }
