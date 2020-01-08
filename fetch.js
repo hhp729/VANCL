@@ -14,7 +14,7 @@ function request(path,data,type = 'get'){
         })
 }
 
-var base = 'http://127.0.0.1/VANCL';
+var base = `http://${location.hostname}/VANCL`;
 
 //用户注册
 var APIuserRegister = params =>request(`${base}/resgiter.php`,params);
