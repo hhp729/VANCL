@@ -7,41 +7,45 @@ layui.use(['laypage'], function () {
 var key = '';
 var order = 'price';
 var sort = 'asc';
+var page = 1;
+var pageSize = 20;
 
-rederlist()
+rederlist(true)
 
 $('#but').click(function(){
     key = $('#inp').val();
-    rederlist()
+    rederlist(true)
 })
 $('#name-up').click(function(){
     order = 'name';
     sort = 'asc';
-    rederlist()
+    rederlist(true)
 })
 $('#name-down').click(function(){
     order='name';
     sort = 'desc';
-    rederlist()
+    rederlist(true)
 })
 $('#price-up').click(function(){
     order = 'price';
     sort = 'asc';
-    rederlist()
+    rederlist(true)
 })
 $('#price-down').click(function(){
     order = 'price';
     sort = 'desc';
-    rederlist()
+    rederlist(true)
 })
 
-function rederlist() {
+function rederlist(tag) {
     APIgoodsList({
         key,
         sort,
-        order
+        order,
+        page,
+        pageSize
     }).then(data => {
-        var { code, data } = data;
+        var { code, data,count } = data;
         console.log(data)
         if (code) {
             var html = ''
@@ -57,6 +61,31 @@ function rederlist() {
                 `
             })
             $('#ul').html(html);
+
+            if (tag) {
+                laypage.render({
+                  elem: 'pagation'
+                  , count: count * 1 // 数据总数，从服务端得到
+                  // , page
+                  , limit: pageSize
+                  , jump: function (obj, first) {
+                    //obj包含了当前分页的所有参数，比如：
+      
+                    // console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+                    // console.log(obj.limit); //得到每页显示的条数
+      
+                    //首次不执行
+                    if (!first) {
+      
+                      page = obj.curr;
+      
+                      // page++;
+                      //do something
+                      rederlist(false); // 不重新渲染分页插件
+                    }
+                  }
+                });
+              }
         }
     })
 }

@@ -84,6 +84,10 @@ $('.add-new').click(function () {
     $('.addform').css('display', 'block')
 })
 
+$('#x').click(function(){
+    $('.addform').css('display', 'none')
+})
+
 
 var username = getCookie('login_user')
 APICarjie({

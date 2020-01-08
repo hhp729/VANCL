@@ -123,4 +123,13 @@ li {
       .content .tbody ul li:nth-of-type(5n) {
         margin-right: 0; }
 
+#pagation {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; }
+  #pagation div {
+    display: flex; }
+    #pagation div a {
+      width: auto; }
+
 /*# sourceMappingURL=list.css.map */

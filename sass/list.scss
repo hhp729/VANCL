@@ -155,3 +155,15 @@ li{
         }
     }
 }
+#pagation{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    div{
+        display: flex;
+        & a{
+            width: auto;
+        }
+    }
+}
+ 

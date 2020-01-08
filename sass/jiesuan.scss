@@ -110,6 +110,7 @@
                     z-index: 100;
                     & ol{
                         font-size: 14px;
+                        position: relative;
                         & li{
                             list-style: none;
                             margin-bottom: 20px;
@@ -118,7 +119,23 @@
                                 height: 20px;
                             }
                         }
+                        & #x{
+                            display: block;
+                            width: 16px;
+                            height: 16px;
+                            background:
+                             red;
+                             text-align: center;
+                             line-height: 16px;
+                             color: #fff;
+                             font-weight: bolder;
+                             position: absolute;
+                             right: 0;
+                             top: -20px;
+                             cursor: pointer;
+                        }
                         & select{
+
                             width: 120px;
                         }
                         & #baocun{
@@ -193,5 +210,30 @@
                 font-size: 26px;
             }
         }
+    }
+}
+.order{
+    width: 980px;
+    height: 60px;
+    margin-top: 10px;
+    text-align: right;
+    & div{
+    border: 1px solid #EBE5BB;
+    background: #FFFEF5;
+    width: 60%;
+    padding: 15px;
+    margin: 0 10px 0 0;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    }
+    & #btn{
+        width: 150px;
+        height: 40px;
+        float: right;
+        background: #870120;
+        border: none;
+        font-size: 18px;
+        color: #fff;
     }
 }
