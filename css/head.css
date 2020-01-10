@@ -100,12 +100,9 @@ li {
           display: none;
           z-index: 100;
           padding-bottom: 20px; }
-          .head #nav ul li .dh a {
+          /* .head #nav ul li .dh a {
             display: block;
-            padding-top: 15px; }
-      .head #nav ul li:hover .dh {
-        display: block;
-        border-top: 5px solid #B81C21; }
+            padding-top: 15px; } */
       .head #nav ul li a {
         text-decoration: none;
         color: #727171; }

@@ -129,6 +129,7 @@ a{
                     display: none;
                     z-index: 100;
                     padding-bottom: 20px;
+                    border-top: 5px solid #B81C21;
 
                     & a{  
                         display: block;
@@ -138,10 +139,10 @@ a{
                 }
                 
             }
-            & li:hover .dh{
-                display: block;
-                border-top: 5px solid #B81C21;
-            }
+            // & li:hover .dh{
+            //     display: block;
+            //     border-top: 5px solid #B81C21;
+            // }
 
             & li a{
                 text-decoration: none;

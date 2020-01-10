@@ -63,7 +63,8 @@ $(document).on('click', function (e) {
     var target = $(e.target)
     if (target.is('#baocun')) {
         var shouhuo = $('#province').val() + $('#city').val() + $('#area').val() + $('#inp').val()
-        $('.qr p').html(shouhuo);
+        localStorage.setItem('addr',shouhuo)
+        $('.qr p').html(localStorage.getItem('addr'));
 
         if ($('input').eq(0).val() && $('input').eq(1).val() && $('input').eq(2).val() && $('input').eq(3).val()) {
 

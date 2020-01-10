@@ -99,6 +99,7 @@ $(document).on('click','.reduce',function(){
     if(!this.innerText) return
     var count = this.nextElementSibling.value;
     count--;
+    console.log(count)
     if(count<=1){
         this.innerText = ''
     }
